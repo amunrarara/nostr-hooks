@@ -39,7 +39,7 @@ export const useNdk = create<State & Actions>((set) => ({
    * Sets the NDK instance.
    * @param ndk - The new NDK instance.
    */
-  setNdk: (ndk) => ({ ndk }),
+  setNdk: (ndk) => set({ ndk }),
 
   /**
    * Sets the signer for the current NDK instance.
